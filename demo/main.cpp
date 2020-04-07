@@ -10,6 +10,6 @@ void blue_led()
 
 int main()
 {
-    queue.cal_every(500, blue_led);
+    queue.call_every(500, blue_led);
     queue.dispatch();
 }
